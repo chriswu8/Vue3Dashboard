@@ -114,16 +114,20 @@ export default {
 
 <style>
 form {
-  max-width: 288px;
+  max-width: 488px;
+  max-height: 888px;
   /* auto evenly distributse horizontal space. */
   margin: 88px auto;
   background: white;
   text-align: left;
-  padding: 80px;
+  padding-top: 68px;
+  padding-left: 108px;
+  padding-right: 108px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.1);
   grid-column: 6 / span 5;
-  grid-row: 1 / span 10;
+  /* grid-row: 1 / span 10; */
+  grid-row: 1 / -1;
 }
 
 label {
@@ -205,7 +209,7 @@ input[type="checkbox"] {
 }
 
 
-@media screen and (max-width: 1070px) {
+@media screen and (max-width: 900px) {
   .backdrop-container {
     display: none;
   }
@@ -260,6 +264,11 @@ input[type="checkbox"] {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  max-height: 10px;
+  font-size: small;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .submit {
@@ -294,7 +303,7 @@ input[type="checkbox"] {
 
 .bypass-button {
   grid-row: 9;
-  grid-column: 6;
+  grid-column: 1;
   display: flex;
   justify-content: center;
   align-items: center;
