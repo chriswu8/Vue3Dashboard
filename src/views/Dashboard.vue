@@ -13,6 +13,7 @@
                 - Winston Churchill
             </p>
             <Cards />
+            <Chat />
         </div>
     </div>
 </template>
@@ -20,11 +21,13 @@
 <script>
 import Nav from '@/components/Nav.vue';
 import Cards from '@/components/Cards.vue';
+import Chat from '@/components/Chat.vue';
 
 export default {
     components: {
         Nav,
         Cards,
+        Chat
     },
 };
 </script>

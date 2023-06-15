@@ -2,39 +2,39 @@
   <nav class="nav">
     <ul class="nav-list">
       <li class="nav-item">
-        <a href="#" class="nav-link">Home</a>
+        <a href="#" class="nav-link"><span class="material-icons">home</span>Home</a>
       </li>
       <li class="nav-item">
-        <a href="#" class="nav-link">Courses</a>
+        <a href="#" class="nav-link"><span class="material-symbols-outlined">laptop_chromebook</span>Courses</a>
       </li>
       <li class="nav-item">
-        <a href="#" class="nav-link">Tutorials</a>
+        <a href="#" class="nav-link"><span class="material-symbols-outlined">cast_for_education</span>Tutorials</a>
       </li>
       <li class="nav-item">
-        <a href="#" class="nav-link">Projects</a>
+        <a href="#" class="nav-link"><span class="material-symbols-outlined">rocket_launch</span>Projects</a>
       </li>
       <li class="nav-item">
-        <a href="#" class="nav-link">Resources</a>
+        <a href="#" class="nav-link"><span class="material-symbols-outlined">library_books</span>Resources</a>
       </li>
       <li class="nav-item">
-        <a href="#" class="nav-link">Blog</a>
+        <a href="#" class="nav-link"><span class="material-symbols-outlined">rss_feed</span>Blog</a>
       </li>
       <li class="nav-item">
-        <a href="#" class="nav-link">Events</a>
+        <a href="#" class="nav-link"><span class="material-symbols-outlined">event</span>Events</a>
       </li>
       <li class="nav-item">
-        <a href="#" class="nav-link">Community</a>
+        <a href="#" class="nav-link"><span class="material-symbols-outlined">forum</span>Community</a>
       </li>
       <li class="nav-item">
-        <a href="#" class="nav-link">FAQ</a>
+        <a href="#" class="nav-link"><span class="material-symbols-outlined">contact_support</span>FAQ</a>
       </li>
       <li class="nav-item">
-        <a href="#" class="nav-link">Contact</a>
+        <a href="#" class="nav-link"><span class="material-symbols-outlined">phone_in_talk</span>Contact</a>
       </li>
       <div class="separator"></div>
       <hr>
       <li class="nav-item">
-        <a href="#" class="nav-link">Settings</a>
+        <a href="#" class="nav-link"><span class="material-symbols-outlined">laptop_chromebook</span>Settings</a>
       </li>
     </ul>
   </nav>
@@ -56,7 +56,8 @@
 }
 
 .nav-link {
-  display: block;
+  display: flex;
+  align-items: center;
   padding: 0.5rem;
   color: #ffffff;
   text-decoration: none;
@@ -68,15 +69,22 @@
   border-radius: 0.25rem;
 }
 
+.nav-link .material-icons,
+.nav-link .material-symbols-outlined {
+  margin-right: 0.5rem;
+}
+
 .separator {
   flex-grow: 1;
-  height: 100px;
-  /* Adjust the height as per your needs */
+  border: none;
+  height: 1px;
+  background-color: #ffffff;
+  margin: 0.5rem 0;
 }
 
 @media (max-width: 768px) {
   .separator {
-    height: 50px;
+    height: 0.5px;
     /* Adjust the height for smaller screens */
   }
 }
