@@ -10,10 +10,13 @@
             <!-- Main content -->
             <Welcome />
             <Lessons />
-            <Chat />
+            <Chat class="z-9999"/>
             <Quote />
             <Testimonials />
             <Timeline />
+            <Video />
+            <Footer />
+            
         </div>
     </div>
 </template>
@@ -26,6 +29,8 @@ import Welcome from '@/components/Welcome.vue';
 import Lessons from '@/components/Lessons.vue';
 import Testimonials from '@/components/Testimonials.vue';
 import Timeline from '@/components/Timeline.vue';
+import Video from '@/components/Video.vue';
+import Footer from '@/components/Footer.vue';
 
 export default {
     components: {
@@ -36,6 +41,8 @@ export default {
         Lessons,
         Testimonials,
         Timeline,
+        Video,
+        Footer
     },
 };
 </script>

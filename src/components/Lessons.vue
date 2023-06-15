@@ -259,16 +259,10 @@ body {
   font-size: 24px;
   margin-bottom: 20px;
   color: #fff;
-  text-align: center;
-  padding: 20px;
-}
-
-.headline {
-  font-size: 24px;
-  margin-bottom: 20px;
-  color: #fff;
   text-shadow: 0 0 3px #fff;
   margin-top: 88px;
+  padding: 20px;
+
 }
 
 
