@@ -8,26 +8,28 @@
         </div>
         <div class="content flex-1">
             <!-- Main content -->
-            <p class="mt-4 italic">
-                "Success is not final, failure is not fatal: It is the courage to continue that counts."
-                - Winston Churchill
-            </p>
-            <Cards />
+            <Welcome />
+            <Lessons />
             <Chat />
+            <Quote />
         </div>
     </div>
 </template>
   
 <script>
 import Nav from '@/components/Nav.vue';
-import Cards from '@/components/Cards.vue';
 import Chat from '@/components/Chat.vue';
+import Quote from '@/components/Quote.vue';
+import Welcome from '@/components/Welcome.vue';
+import Lessons from '@/components/Lessons.vue';
 
 export default {
     components: {
         Nav,
-        Cards,
-        Chat
+        Chat,
+        Quote,
+        Welcome,
+        Lessons,
     },
 };
 </script>
@@ -40,6 +42,7 @@ export default {
 
 .content {
     flex: 1;
+    overflow-y: auto;
 }
 </style>
   

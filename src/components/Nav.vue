@@ -34,7 +34,7 @@
       <div class="separator"></div>
       <hr>
       <li class="nav-item">
-        <a href="#" class="nav-link"><span class="material-symbols-outlined">laptop_chromebook</span>Settings</a>
+        <a href="#" class="nav-link"><span class="material-symbols-outlined">settings</span>Settings</a>
       </li>
     </ul>
   </nav>
