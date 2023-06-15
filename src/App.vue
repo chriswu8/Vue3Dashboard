@@ -19,7 +19,7 @@ export default {
   },
   data() {
     return {
-      showSignupLink: true,
+      showSignupLink: false,
     };
   },
   computed: {
