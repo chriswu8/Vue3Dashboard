@@ -12,6 +12,8 @@
             <Lessons />
             <Chat />
             <Quote />
+            <Testimonials />
+            <Timeline />
         </div>
     </div>
 </template>
@@ -22,6 +24,8 @@ import Chat from '@/components/Chat.vue';
 import Quote from '@/components/Quote.vue';
 import Welcome from '@/components/Welcome.vue';
 import Lessons from '@/components/Lessons.vue';
+import Testimonials from '@/components/Testimonials.vue';
+import Timeline from '@/components/Timeline.vue';
 
 export default {
     components: {
@@ -30,6 +34,8 @@ export default {
         Quote,
         Welcome,
         Lessons,
+        Testimonials,
+        Timeline,
     },
 };
 </script>

@@ -137,10 +137,13 @@ body {
   max-width: 1100px;
   width: 100%;
   position: relative;
-  margin: 0 auto; /* Add this line to center the wrapper horizontally */
+  margin: 0 auto;
+  /* Add this line to center the wrapper horizontally */
   display: flex;
-  justify-content: center; /* Add this line to center the wrapper horizontally */
-  align-items: center; /* Add this line to center the wrapper vertically */
+  justify-content: center;
+  /* Add this line to center the wrapper horizontally */
+  align-items: center;
+  /* Add this line to center the wrapper vertically */
 }
 
 
@@ -259,4 +262,14 @@ body {
   text-align: center;
   padding: 20px;
 }
+
+.headline {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #fff;
+  text-shadow: 0 0 3px #fff;
+  margin-top: 88px;
+}
+
+
 </style>
